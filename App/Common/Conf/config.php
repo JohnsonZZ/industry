@@ -9,7 +9,7 @@
 *
 **/
 return array(
-	'URL' =>'http://www.example.com', //网站根URL
+
 	//数据库链接配置
 	'DB_TYPE'   => 'mysql', // 数据库类型
 	'DB_HOST'   => 'localhost', // 服务器地址
@@ -25,4 +25,6 @@ return array(
 	'DB_PART'     => '20971520',  //该值用于限制压缩后的分卷最大长度。单位：B；建议设置20M
 	'DB_COMPRESS' => '1',         //压缩备份文件需要PHP环境支持gzopen,gzwrite函数        0:不压缩 1:启用压缩
 	'DB_LEVEL'    => '9',         //压缩级别   1:普通   4:一般   9:最高
+	'URL_MODEL'  => '2',
+
  );
